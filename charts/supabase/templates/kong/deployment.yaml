@@ -100,9 +100,9 @@ spec:
             {{- toYaml . | nindent 12 }}
           {{- end }}
           volumeMounts:
-            - mountPath: /usr/local/kong/template.yml
+            - mountPath: /usr/local/kong/template.yaml
               name: config
-              subPath: template.yml
+              subPath: template.yaml
             - mountPath: /scripts
               name: wrapper
             {{- with .Values.kong.volumeMounts }}
@@ -126,8 +126,8 @@ spec:
             name: {{ include "supabase.kong.fullname" $ }}
             defaultMode: 0777
             items:
-            - key: template.yml
-              path: template.yml
+            - key: template.yaml
+              path: template.yaml
         - name: wrapper
           configMap:
             name: {{ include "supabase.kong.fullname" $ }}
