@@ -1,6 +1,7 @@
 {{- if .Values.db.enabled -}}
 kind: ConfigMap
 apiVersion: v1
+
 metadata:
   name: {{ include "supabase.db.fullname" . }}-initdb
   labels:
