@@ -40,6 +40,7 @@ spec:
             - --console-address
             - ":9001"
             - /data
+            
           env:
             - name: MINIO_ROOT_USER
               valueFrom:
