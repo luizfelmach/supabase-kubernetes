@@ -11,4 +11,14 @@ entries:
     urls:
     - https://github.com/luizfelmach/supabase-kubernetes/releases/download/supabase-0.4.2/supabase-0.4.2.tgz
     version: 0.4.2
-generated: "2026-02-18T18:56:31.18544903Z"
+  - apiVersion: v2
+    created: "2026-02-18T19:03:09.851750242Z"
+    description: Supabase is the Postgres development platform.
+    digest: 503784abe6ab7ddddd8fdb8e1d62beb149e39ef9152f596f1f66f838af6844bc
+    icon: https://avatars.githubusercontent.com/u/54469796?s=280&v=4
+    name: supabase
+    type: application
+    urls:
+    - https://github.com/luizfelmach/supabase-kubernetes/releases/download/supabase-0.4.1/supabase-0.4.1.tgz
+    version: 0.4.1
+generated: "2026-02-18T19:03:09.851764028Z"
