@@ -472,7 +472,7 @@ image:
   vector:
     repository: timberio/vector
     pullPolicy: IfNotPresent
-    tag: "0.53.0-alpine"
+    tag: "0.52.0-alpine"
     pullSecrets: []
 
 environment:
