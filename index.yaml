@@ -2,6 +2,16 @@ apiVersion: v1
 entries:
   supabase:
   - apiVersion: v2
+    created: "2026-07-21T12:09:48.635470904Z"
+    description: Supabase is the Postgres development platform.
+    digest: 50a8d81d2afb991a7d7cb02264df9de080bee1b5308c67459231ee83ce0181af
+    icon: https://avatars.githubusercontent.com/u/54469796?s=280&v=4
+    name: supabase
+    type: application
+    urls:
+    - https://github.com/luizfelmach/supabase-kubernetes/releases/download/supabase-0.7.1/supabase-0.7.1.tgz
+    version: 0.7.1
+  - apiVersion: v2
     created: "2026-02-24T11:17:50.510414531Z"
     description: Supabase is the Postgres development platform.
     digest: 918cdf770d3b51e1ef799e4b4effa98f7e6f72feb9ebb0ce9a7054114f25a764
@@ -31,4 +41,34 @@ entries:
     urls:
     - https://github.com/luizfelmach/supabase-kubernetes/releases/download/supabase-0.4.1/supabase-0.4.1.tgz
     version: 0.4.1
-generated: "2026-02-24T11:17:50.510429899Z"
+  supabase-operator:
+  - apiVersion: v2
+    created: "2026-07-21T12:09:48.933759714Z"
+    description: Helm chart to deploy a Supabase Operator
+    digest: 3d291f97acf0148513ce17dd5d77a4eaf3747dd5b45818e9033cda38afd0d3eb
+    icon: https://avatars.githubusercontent.com/u/54469796?s=280&v=4
+    keywords:
+    - kubernetes
+    - operator
+    - supabase
+    name: supabase-operator
+    type: application
+    urls:
+    - https://github.com/luizfelmach/supabase-kubernetes/releases/download/supabase-operator-0.1.1/supabase-operator-0.1.1.tgz
+    version: 0.1.1
+  supabase-project:
+  - apiVersion: v2
+    created: "2026-07-21T12:09:49.167757188Z"
+    description: Helm chart to deploy a Supabase CRDs
+    digest: 2e9f4f0dbedc404d13a247991d324a37735d981f6de5b30778d07b62c1fbb650
+    icon: https://avatars.githubusercontent.com/u/54469796?s=280&v=4
+    keywords:
+    - kubernetes
+    - operator
+    - supabase
+    name: supabase-project
+    type: application
+    urls:
+    - https://github.com/luizfelmach/supabase-kubernetes/releases/download/supabase-project-0.1.0/supabase-project-0.1.0.tgz
+    version: 0.1.0
+generated: "2026-07-21T12:09:49.167776324Z"
